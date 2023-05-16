@@ -1,0 +1,63 @@
+DEFINITION OF PROGRAMMING TERMS:
+
+1. SYNTAX: The syntax of a langaue is the set of rules or predefined rules or instruction that govern that langaue.
+
+2. Error (bug): An error is a different outcome from an expected outcome. This is a line of code or a block of that does not produce the expected result/outcome. it is generally referred to as a bug.
+
+3. Debug: This the act or processing of finding and correcting error(s) in a program.
+
+4. Execute/Run: This the process of getting the output of/from a program.
+
+5. Run Time Environment:
+
+TYPES OF ERRORS IN PROGRAMMING
+1. SYNTAX ERROR: This when the syntatic rule of a language is voilated. This time of error usually occurs at code time.
+
+2. SEMATIC ERROR: This is an error that occurs as a result of the position of a line or block of code. This type of error often results to wrong program result.
+
+3. LOGICAL ERROR: This a type of error the produces an unexpected result from a program. 
+
+4. RUN TIME ERROR:
+
+
+HTML CONSIST OF TAGS AND ELEMENTS:
+
+WHAT IS A TAG? < > = tag
+
+type of tag:
+1. opening tag <> 
+2. closing tag </>
+
+SOME HTML ELEMENTS:
+
+name            symbol/denation
+paragraph           p
+bold                b
+break               br 
+heading             h (1...6)
+
+<p>   </p>
+<b>   </b>
+
+MORE HTML ELEMENTS:
+1. div
+2. form
+3. section
+4. img
+
+1. GET
+2. POST
+
+
+CASCADE STYLESHEET (CSS):
+KEY VALUE PAIR:
+font-size: 12px. 2rem, 2ch
+
+css access modifiers:
+. operator:
+# (id) operator
+:: psuedo operator
+
+inline styling:
+embeded styling/ internal
+external styling

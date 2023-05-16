@@ -1,0 +1,31 @@
+.fm-main{
+  background-color: gray;
+ padding-top: 20px;
+  padding-bottom: 20px;
+}
+.fm{
+  background-color: rgb(8, 156, 161);
+  margin: 3px 10px 5px 12px;  
+  border-radius: 2ch;
+}
+h1{
+  font-style: italic;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+.fm-group{
+  color: rgb(239, 240, 214);
+  font-size: 20px;
+}
+.fm-item{
+  padding: 5px;
+  padding-left: 25px;
+  background-color: blue;
+  margin-left: 15px;
+}
+.fm-input{
+  font-size: 16px;
+  border-radius: 0.5ch;
+  padding: 5px;
+  margin: 5px;
+}

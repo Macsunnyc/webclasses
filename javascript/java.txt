@@ -1,0 +1,82 @@
+ECMA created javascript and they manage and implements new features.
+javascript is a scripting language just like php, go language and python.
+
+CONCERT OF VARIABLE:
+WRITING A PROGRAM REQUIRES THAT DATA WILL BE STORED SOMEWHERE. in this case, the computer memory.
+A variable is a logical memory location that has been named, used to store data.
+for example 
+X = 5
+X here is the variable while 5 is the data.
+Terms associated with variables.
+1: variable declaration; this is when a variable is created or instantiation.
+2; variable assignment: this is when a value is given to a variable. statistically or dynamically.
+
+RULES OF VARIABLE: 
+ 1. a variable must be named
+ 2. it must not begin with a digit
+ 3. it must not contain space
+ 4. it must not be a keyword or reversed word
+ 5. it must not begin with a special symbol or character except underscore(_)
+
+ (;) semicolon is a limiter in js which shows end of code
+
+
+ assignment
+  1. Create 5 variable with different values
+  2. print 3 of the variable created to the screen
+
+
+  CONTROL STRUCTURE......
+  this is a method that is used to alter the sequencial or default flow of program.
+
+  A program is a set of instructions that is sequencialy and logically arranged to perform a specific task, under a control program.
+
+  we have four types of control structure.
+   1. sequencial or default control structure.
+   2. selection control structure. this is a mechanism that is used to chose between alternative course of action. example of selection 
+   control structure is (1) If statement (2) If ...ELSE statement (3) Multiple or dangling if statement.
+   SYNTHAX.
+   
+   (1) if statement; the expression on which the execution of the block of codes depends on the result of the condition which always evaluates 
+   to true or false.
+   example -1 greater than 2 (this is an expression) results to false (this is the condition), now the result of the condition determines if the data will run.
+
+   (2) if ...ELSE STATEMENT; this give you two options.
+
+   (3) Dangling if; this is the nesting of multiple if statements or condition
+
+   LOGICAL OPERATORS
+   NAME         DENOTION
+   and          &&
+   or           ||
+   not          !
+
+   assignment
+   write a program to verify that a number is a prime number
+
+   3. Itration control structure: These are control structure that are used to execute a block of code for a specified number of times.
+   Types of itration control structure
+
+    1. for loop : the types of FOR LOOP in js includes; forEach, For... of, for... in. these are used to itrate object. itrable objects are objects that can be looped over or itrated over with the help of for loop. objects like lists, tuples, sets, dictionaries, strings etc.
+    2. WHILE loop
+    3. do...while loop
+
+SYNTHAX (FOR LOOP)
+keyword (initializer ; condition ; counter) {
+
+}
+senitel counter is a concept in programming where a user provided values is used to terminate a program.
+
+counter is a veriable that is used to number itration over a block or line of code.
+
+TASK 1
+write a program that print all even number between 1 and 55. display the result in the console
+
+TASK 2
+write a program that generate the first 10 fibonacci series up to that number. display the series in the console.
+
+(
+    permutation
+    combination
+    series
+)

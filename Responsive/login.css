@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px
+}
+body{
+    font-family: 'Days One', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.fm-container{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+.fm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: flex-end;
+    border: solid 2px red;
+    height: 50%;
+    margin-top: 150px;
+    width: 300px;
+}
+.fm-item{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+.btn-login{
+    width: inherit;
+    background-color:  rgb(56, 95, 224);
+    padding: 6px;
+    border-radius: 3.5px;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.btn-login:hover{
+    background-color: rgb(0, 110, 255);
+}
+.fm-more{
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+}
+@media screen and (max-width:400px) {
+    .fm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: flex-end;
+        border: solid 2px blue;
+        height: 50%;
+        margin-top: 150px;
+        width: 300px;
+    }
+    .btn-login{
+        width: 100%;
+        background-color:  rgb(56, 95, 224);
+        padding: 6px;
+        border-radius: 3.5px;
+        border: none;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    .fm-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .info{
+        margin-right: 10px;
+        font-size: 15px;
+        font-weight: 1000;
+    }
+    .fm-more {
+        align-self: center;
+        font-size: 15px;
+    }
+    .fm-a{
+        color: rgb(255, 0, 119);
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+}
+@media screen and (max-width:800px) {
+    .fm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: flex-end;
+        border: solid 2px red;
+        height: 50%;
+        margin-top: 150px;
+        width: 300px;
+    }
+    .btn-login{
+        width: 100%;
+        background-color:  rgb(56, 95, 224);
+        padding: 6px;
+        border-radius: 3.5px;
+        border: none;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    .fm-item{
+        display: flex;
+        flex-direction: ro;
+    }
+    .info{
+        margin-right: 10px;
+        font-size: 15px;
+        font-weight: 1000;
+    }
+    .fm-more {
+        align-self: center;
+        font-size: 15px;
+    }
+    .fm-a{
+        color: rgb(255, 0, 119);
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+}
+@media screen and (max-width:1200px) {
+    .fm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: flex-end;
+        border: solid 2px blue;
+        height: 50%;
+        margin-top: 150px;
+        width: 300px;
+    }
+    .btn-login{
+        width: 100%;
+        background-color:  rgb(56, 95, 224);
+        padding: 6px;
+        border-radius: 3.5px;
+        border: none;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    .fm-item{
+        display: flex;
+        flex-direction: ro;
+    }
+    .info{
+        margin-right: 10px;
+        font-size: 15px;
+        font-weight: 1000;
+    }
+    .fm-more {
+        align-self: center;
+        font-size: 15px;
+    }
+    .fm-a{
+        color: rgb(255, 0, 119);
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+}
+.fa-user{
+    padding: 5px;
+    color: aqua;
+}
+.fa-lock{
+    padding: 5px;
+    color: aqua;
+}
