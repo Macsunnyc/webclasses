@@ -80,3 +80,5 @@ write a program that generate the first 10 fibonacci series up to that number. d
     combination
     series
 )
+
+git checkout -b name of branch....... this will check us out anc create a new branch if none exist.
